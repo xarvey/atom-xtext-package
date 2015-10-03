@@ -26,7 +26,6 @@ module.exports = AtomXtext =
 
   toggle: ->
     console.log 'AtomXtext was toggled!'
-
     if @modalPanel.isVisible()
       @modalPanel.hide()
     else

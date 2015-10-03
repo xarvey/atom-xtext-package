@@ -5,11 +5,17 @@ class AtomXtextView
     @element = document.createElement('div')
     @element.classList.add('atom-xtext')
 
-    # Create message element
     message = document.createElement('div')
-    message.textContent = "The AtomXtext package is Alive! It's ALIVE!"
     message.classList.add('message')
-    @element.appendChild(message)
+
+    # Create message element
+    xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = =>
+      if xhttp.readyState == 4 and xhttp.status == 200
+        message.textContent = xhttp.responseText
+        @element.appendChild(message)
+    xhttp.open("GET", "http://maple.fm/api/2/search?server=0", true);
+    xhttp.send();
 
   # Returns an object that can be retrieved when package is activated
   serialize: ->
