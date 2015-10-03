@@ -3,14 +3,15 @@
 // See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
 // for a full listing of what's available.
 @import "ui-variables";
+@import "syntax-variables";
 
-.atom-xtext {
+atom-text-editor, atom-text-editor::shadow {
   .keyword.grammar
   {
-    color: #FF0000
+    color: @background-color-warning;
   }
   .keyword.with
   {
-    color: #000000
+    color: @text-color-subtle;
   }
 }

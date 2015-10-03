@@ -4,14 +4,14 @@
 'patterns': [
   {
     'match': 'grammar'
-    'name': 'keywords.grammar'
+    'name': 'keyword.grammar'
   },
   {
     'match': 'with'
-    'name': 'keywords.with'
+    'name': ''
   },
   {
     'match': 'generate'
-    'name': 'keywords.generate'
+    'name': 'keyword.with'
   }
 ]
