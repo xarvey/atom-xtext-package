@@ -4,14 +4,17 @@
 'patterns': [
   {
     'match': 'grammar'
-    'name': 'keyword.grammar'
+    'name': 'keyword'
   },
   {
     'match': 'with'
-    'name': ''
+    'name': 'keyword'
   },
   {
     'match': 'generate'
-    'name': 'keyword.with'
+    'name': 'keyword'
+  },
+  {
+    'include': 'source.js'
   }
 ]
