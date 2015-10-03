@@ -1,0 +1,9 @@
+'scopeName': 'source.xtext'
+'name': 'xtext'
+'fileTypes': ['xtext']
+'patterns': [
+  {
+    'match': '\\b(?i:(0x\\h*))'
+    'name': 'constant.numeric.integer.hexadecimal.python'
+  }
+]
