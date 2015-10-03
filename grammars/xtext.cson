@@ -3,7 +3,15 @@
 'fileTypes': ['xtext']
 'patterns': [
   {
-    'match': '\\b(?i:(0x\\h*))'
-    'name': 'constant.numeric.integer.hexadecimal.python'
+    'match': 'grammar'
+    'name': 'keywords.grammar'
+  },
+  {
+    'match': 'with'
+    'name': 'keywords.with'
+  },
+  {
+    'match': 'generate'
+    'name': 'keywords.generate'
   }
 ]
