@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.eclipse.xtend.lib" modificationStamp="1039" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtend.lib/src&lt;org.eclipse.xtend.lib.annotations"/>
+        <fragment handle="=org.eclipse.xtend.lib/xtend-gen&lt;org.eclipse.xtend.lib.annotations"/>
+        <type handle="=org.eclipse.xtend.lib/xtend-gen&lt;org.eclipse.xtend.lib.annotations{Delegate.java[Delegate" modificationStamp="1072" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib/xtend-gen&lt;org.eclipse.xtend.lib.annotations{DelegateProcessor.java[DelegateProcessor" modificationStamp="1073" restrictions="10" visibility="0">
+            <type handle="=org.eclipse.xtend.lib/xtend-gen&lt;org.eclipse.xtend.lib.annotations{DelegateProcessor.java[DelegateProcessor[Util" modificationStamp="1073" restrictions="10" visibility="0"/>
+        </type>
+        <type handle="=org.eclipse.xtend.lib/xtend-gen&lt;org.eclipse.xtend.lib.annotations{ToString.java[ToString" modificationStamp="1078" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib/xtend-gen&lt;org.eclipse.xtend.lib.annotations{AccessorType.java[AccessorType" modificationStamp="1067" restrictions="8" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib/xtend-gen&lt;org.eclipse.xtend.lib.annotations{Accessors.java[Accessors" modificationStamp="1068" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib/xtend-gen&lt;org.eclipse.xtend.lib.annotations{EqualsHashCode.java[EqualsHashCode" modificationStamp="1074" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib/xtend-gen&lt;org.eclipse.xtend.lib.annotations{EqualsHashCodeProcessor.java[EqualsHashCodeProcessor" modificationStamp="1075" restrictions="10" visibility="0">
+            <type handle="=org.eclipse.xtend.lib/xtend-gen&lt;org.eclipse.xtend.lib.annotations{EqualsHashCodeProcessor.java[EqualsHashCodeProcessor[Util" modificationStamp="1075" restrictions="10" visibility="0"/>
+        </type>
+        <type handle="=org.eclipse.xtend.lib/xtend-gen&lt;org.eclipse.xtend.lib.annotations{ToStringConfiguration.java[ToStringConfiguration" modificationStamp="1079" restrictions="14" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib/xtend-gen&lt;org.eclipse.xtend.lib.annotations{ToStringProcessor.java[ToStringProcessor" modificationStamp="1080" restrictions="10" visibility="0">
+            <type handle="=org.eclipse.xtend.lib/xtend-gen&lt;org.eclipse.xtend.lib.annotations{ToStringProcessor.java[ToStringProcessor[Util" modificationStamp="1080" restrictions="10" visibility="0"/>
+        </type>
+        <type handle="=org.eclipse.xtend.lib/xtend-gen&lt;org.eclipse.xtend.lib.annotations{FinalFieldsConstructorProcessor.java[FinalFieldsConstructorProcessor" modificationStamp="1077" restrictions="10" visibility="0">
+            <type handle="=org.eclipse.xtend.lib/xtend-gen&lt;org.eclipse.xtend.lib.annotations{FinalFieldsConstructorProcessor.java[FinalFieldsConstructorProcessor[Util" modificationStamp="1077" restrictions="10" visibility="0"/>
+        </type>
+        <type handle="=org.eclipse.xtend.lib/xtend-gen&lt;org.eclipse.xtend.lib.annotations{FinalFieldsConstructor.java[FinalFieldsConstructor" modificationStamp="1076" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib/xtend-gen&lt;org.eclipse.xtend.lib.annotations{AccessorsProcessor.java[AccessorsProcessor" modificationStamp="1069" restrictions="10" visibility="0">
+            <type handle="=org.eclipse.xtend.lib/xtend-gen&lt;org.eclipse.xtend.lib.annotations{AccessorsProcessor.java[AccessorsProcessor[Util" modificationStamp="1069" restrictions="10" visibility="0"/>
+        </type>
+        <type handle="=org.eclipse.xtend.lib/xtend-gen&lt;org.eclipse.xtend.lib.annotations{Data.java[Data" modificationStamp="1070" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib/xtend-gen&lt;org.eclipse.xtend.lib.annotations{DataProcessor.java[DataProcessor" modificationStamp="1071" restrictions="10" visibility="0">
+            <type handle="=org.eclipse.xtend.lib/xtend-gen&lt;org.eclipse.xtend.lib.annotations{DataProcessor.java[DataProcessor[Util" modificationStamp="1071" restrictions="10" visibility="0"/>
+        </type>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtend.lib/src&lt;org.eclipse.xtend.lib"/>
+        <fragment handle="=org.eclipse.xtend.lib/xtend-gen&lt;org.eclipse.xtend.lib"/>
+        <type handle="=org.eclipse.xtend.lib/xtend-gen&lt;org.eclipse.xtend.lib{Data.java[Data" modificationStamp="1056" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib/xtend-gen&lt;org.eclipse.xtend.lib{DataProcessor.java[DataProcessor" modificationStamp="1057" restrictions="10" visibility="0">
+            <type handle="=org.eclipse.xtend.lib/xtend-gen&lt;org.eclipse.xtend.lib{DataProcessor.java[DataProcessor[Util" modificationStamp="1057" restrictions="10" visibility="0"/>
+        </type>
+        <type handle="=org.eclipse.xtend.lib/xtend-gen&lt;org.eclipse.xtend.lib{PropertyProcessor.java[PropertyProcessor" modificationStamp="1059" restrictions="10" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib/xtend-gen&lt;org.eclipse.xtend.lib{Property.java[Property" modificationStamp="1058" restrictions="0" visibility="0"/>
+    </package>
+</component>

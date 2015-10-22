@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.eclipse.xtext.ui.shared" modificationStamp="21981" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.ui.shared/src&lt;org.eclipse.xtext.ui.shared"/>
+        <type handle="=org.eclipse.xtext.ui.shared/src&lt;org.eclipse.xtext.ui.shared{JdtHelper.java[JdtHelper" modificationStamp="21993" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.ui.shared/src&lt;org.eclipse.xtext.ui.shared{SharedStateModule.java[SharedStateModule" modificationStamp="21994" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.ui.shared/src&lt;org.eclipse.xtext.ui.shared{Access.java[Access" modificationStamp="21992" restrictions="0" visibility="0"/>
+    </package>
+</component>

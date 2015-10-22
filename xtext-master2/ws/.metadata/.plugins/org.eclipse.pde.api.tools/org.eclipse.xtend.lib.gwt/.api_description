@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.eclipse.xtend.lib.gwt" modificationStamp="7161" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtend.lib.gwt/src&lt;org.eclipse.xtend.lib"/>
+    </package>
+</component>

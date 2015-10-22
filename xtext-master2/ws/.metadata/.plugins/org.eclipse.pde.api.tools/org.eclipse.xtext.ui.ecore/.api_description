@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.eclipse.xtext.ui.ecore" modificationStamp="14709" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.ui.ecore/src&lt;org.eclipse.xtext.ui.ecore"/>
+        <type handle="=org.eclipse.xtext.ui.ecore/src&lt;org.eclipse.xtext.ui.ecore{EcoreEditorOpener.java[EcoreEditorOpener" modificationStamp="14717" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.ui.ecore/src&lt;org.eclipse.xtext.ui.ecore{EcoreUiModule.java[EcoreUiModule" modificationStamp="14718" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.ui.ecore/src&lt;org.eclipse.xtext.ui.ecore{Activator.java[Activator" modificationStamp="14716" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.ui.ecore/src&lt;org.eclipse.xtext.ui.ecore{ExecutableExtensionFactory.java[ExecutableExtensionFactory" modificationStamp="14719" restrictions="0" visibility="0"/>
+    </package>
+</component>

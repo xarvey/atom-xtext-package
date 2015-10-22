@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.eclipse.xtext.junit4" modificationStamp="2494" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.junit4/src&lt;org.eclipse.xtext.junit4.validation"/>
+        <type handle="=org.eclipse.xtext.junit4/src&lt;org.eclipse.xtext.junit4.validation{AbstractValidatorTester.java[AbstractValidatorTester" modificationStamp="2566" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.junit4/src&lt;org.eclipse.xtext.junit4.validation{ValidatorTester.java[ValidatorTester" modificationStamp="2570" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.junit4/src&lt;org.eclipse.xtext.junit4.validation{AssertableDiagnostics.java[AssertableDiagnostics" modificationStamp="2567" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.junit4/src&lt;org.eclipse.xtext.junit4.validation{ValidationTestHelper.java[ValidationTestHelper" modificationStamp="2569" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.junit4/src&lt;org.eclipse.xtext.junit4.validation{RegisteredValidatorTester.java[RegisteredValidatorTester" modificationStamp="2568" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.junit4/src&lt;org.eclipse.xtext.junit4.smoketest"/>
+        <type handle="=org.eclipse.xtext.junit4/src&lt;org.eclipse.xtext.junit4.smoketest{XtextSmokeTestRunner.java[XtextSmokeTestRunner" modificationStamp="2545" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.junit4/src&lt;org.eclipse.xtext.junit4.smoketest{Scenario.java[Scenario" modificationStamp="2542" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.junit4/src&lt;org.eclipse.xtext.junit4.smoketest{IgnoredBySmokeTest.java[IgnoredBySmokeTest" modificationStamp="2540" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.junit4/src&lt;org.eclipse.xtext.junit4.smoketest{Scenarios.java[Scenarios" modificationStamp="2544" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.junit4/src&lt;org.eclipse.xtext.junit4.smoketest{ScenarioProcessor.java[ScenarioProcessor" modificationStamp="2543" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.junit4/src&lt;org.eclipse.xtext.junit4.smoketest{AbstractSmokeTest.java[AbstractSmokeTest" modificationStamp="2538" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.junit4/src&lt;org.eclipse.xtext.junit4.smoketest{ProcessedBy.java[ProcessedBy" modificationStamp="2541" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.junit4/src&lt;org.eclipse.xtext.junit4.smoketest{DeltaScenarioProcessor.java[DeltaScenarioProcessor" modificationStamp="2539" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.junit4/src&lt;org.eclipse.xtext.junit4.util"/>
+        <fragment handle="=org.eclipse.xtext.junit4/xtend-gen&lt;org.eclipse.xtext.junit4.util"/>
+        <type handle="=org.eclipse.xtext.junit4/src&lt;org.eclipse.xtext.junit4.util{InMemoryURIConverter.java[InMemoryURIConverter" modificationStamp="2560" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.junit4/xtend-gen&lt;org.eclipse.xtext.junit4.util{InMemoryURIHandler.java[InMemoryURIHandler" modificationStamp="2576" restrictions="8" visibility="0"/>
+        <type handle="=org.eclipse.xtext.junit4/src&lt;org.eclipse.xtext.junit4.util{ParseHelper.java[ParseHelper" modificationStamp="2562" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.junit4/src&lt;org.eclipse.xtext.junit4.util{ResourceHelper.java[ResourceHelper" modificationStamp="2563" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.junit4/src&lt;org.eclipse.xtext.junit4.util{URIBasedTestResourceDescription.java[URIBasedTestResourceDescription" modificationStamp="2565" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.junit4/src&lt;org.eclipse.xtext.junit4.util{ResourceLoadHelper.java[ResourceLoadHelper" modificationStamp="2564" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.junit4/src&lt;org.eclipse.xtext.junit4"/>
+        <fragment handle="=org.eclipse.xtext.junit4/xtend-gen&lt;org.eclipse.xtext.junit4"/>
+        <type handle="=org.eclipse.xtext.junit4/src&lt;org.eclipse.xtext.junit4{TemporaryFolder.java[TemporaryFolder" modificationStamp="2510" restrictions="2" visibility="0"/>
+        <type handle="=org.eclipse.xtext.junit4/src&lt;org.eclipse.xtext.junit4{Flaky.java[Flaky" modificationStamp="2505" restrictions="8" visibility="0"/>
+        <type handle="=org.eclipse.xtext.junit4/src&lt;org.eclipse.xtext.junit4{IInjectorProvider.java[IInjectorProvider" modificationStamp="2507" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.junit4/src&lt;org.eclipse.xtext.junit4{XtextRunner.java[XtextRunner" modificationStamp="2511" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.junit4/src&lt;org.eclipse.xtext.junit4{AbstractXtextTests.java[AbstractXtextTests" modificationStamp="2504" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.junit4/src&lt;org.eclipse.xtext.junit4{GlobalRegistries.java[GlobalRegistries" modificationStamp="2506" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.junit4/src&lt;org.eclipse.xtext.junit4{InjectWith.java[InjectWith" modificationStamp="2509" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.junit4/src&lt;org.eclipse.xtext.junit4{IRegistryConfigurator.java[IRegistryConfigurator" modificationStamp="2508" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.junit4/src&lt;org.eclipse.xtext.junit4.build"/>
+        <fragment handle="=org.eclipse.xtext.junit4/xtend-gen&lt;org.eclipse.xtext.junit4.build"/>
+        <type handle="=org.eclipse.xtext.junit4/xtend-gen&lt;org.eclipse.xtext.junit4.build{AbstractIncrementalBuilderTest.java[AbstractIncrementalBuilderTest" modificationStamp="2574" restrictions="8" visibility="0"/>
+    </package>
+</component>

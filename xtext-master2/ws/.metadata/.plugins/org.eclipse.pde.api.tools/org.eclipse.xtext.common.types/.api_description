@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.eclipse.xtext.common.types" modificationStamp="16588" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.common.types/xtend-gen&lt;org.eclipse.xtext.common.types"/>
+        <fragment handle="=org.eclipse.xtext.common.types/src&lt;org.eclipse.xtext.common.types"/>
+        <fragment handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmMultiTypeReference.java[JvmMultiTypeReference" modificationStamp="16641" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/src&lt;org.eclipse.xtext.common.types{GenerateEMF.java[GenerateEMF" modificationStamp="16665" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmFloatAnnotationValue.java[JvmFloatAnnotationValue" modificationStamp="16631" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmArrayType.java[JvmArrayType" modificationStamp="16613" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmByteAnnotationValue.java[JvmByteAnnotationValue" modificationStamp="16615" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmExecutable.java[JvmExecutable" modificationStamp="16628" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmEnumerationType.java[JvmEnumerationType" modificationStamp="16627" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{TypesFactory.java[TypesFactory" modificationStamp="16660" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmStringAnnotationValue.java[JvmStringAnnotationValue" modificationStamp="16647" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmLongAnnotationValue.java[JvmLongAnnotationValue" modificationStamp="16638" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmTypeParameterDeclarator.java[JvmTypeParameterDeclarator" modificationStamp="16653" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmAnnotationAnnotationValue.java[JvmAnnotationAnnotationValue" modificationStamp="16607" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmAnnotationTarget.java[JvmAnnotationTarget" modificationStamp="16609" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmIntAnnotationValue.java[JvmIntAnnotationValue" modificationStamp="16637" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmMember.java[JvmMember" modificationStamp="16640" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmCustomAnnotationValue.java[JvmCustomAnnotationValue" modificationStamp="16621" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmTypeConstraint.java[JvmTypeConstraint" modificationStamp="16651" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmOperation.java[JvmOperation" modificationStamp="16642" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmVoid.java[JvmVoid" modificationStamp="16658" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmAnyTypeReference.java[JvmAnyTypeReference" modificationStamp="16612" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmDelegateTypeReference.java[JvmDelegateTypeReference" modificationStamp="16623" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmSpecializedTypeReference.java[JvmSpecializedTypeReference" modificationStamp="16646" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmFormalParameter.java[JvmFormalParameter" modificationStamp="16632" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmCompoundTypeReference.java[JvmCompoundTypeReference" modificationStamp="16618" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmPrimitiveType.java[JvmPrimitiveType" modificationStamp="16644" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmTypeParameter.java[JvmTypeParameter" modificationStamp="16652" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmTypeReference.java[JvmTypeReference" modificationStamp="16654" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmConstraintOwner.java[JvmConstraintOwner" modificationStamp="16619" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmSynonymTypeReference.java[JvmSynonymTypeReference" modificationStamp="16648" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmEnumerationLiteral.java[JvmEnumerationLiteral" modificationStamp="16626" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmAnnotationValue.java[JvmAnnotationValue" modificationStamp="16611" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmVisibility.java[JvmVisibility" modificationStamp="16657" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmUnknownTypeReference.java[JvmUnknownTypeReference" modificationStamp="16655" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmFeature.java[JvmFeature" modificationStamp="16629" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/src&lt;org.eclipse.xtext.common.types{DefaultCommonTypesRuntimeModule.java[DefaultCommonTypesRuntimeModule" modificationStamp="16664" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmTypeAnnotationValue.java[JvmTypeAnnotationValue" modificationStamp="16650" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmDoubleAnnotationValue.java[JvmDoubleAnnotationValue" modificationStamp="16624" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmGenericType.java[JvmGenericType" modificationStamp="16634" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmType.java[JvmType" modificationStamp="16649" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{TypesPackage.java[TypesPackage" modificationStamp="16661" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmWildcardTypeReference.java[JvmWildcardTypeReference" modificationStamp="16659" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmConstructor.java[JvmConstructor" modificationStamp="16620" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmInnerTypeReference.java[JvmInnerTypeReference" modificationStamp="16636" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmGenericArrayTypeReference.java[JvmGenericArrayTypeReference" modificationStamp="16633" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmAnnotationReference.java[JvmAnnotationReference" modificationStamp="16608" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmIdentifiableElement.java[JvmIdentifiableElement" modificationStamp="16635" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmLowerBound.java[JvmLowerBound" modificationStamp="16639" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmUpperBound.java[JvmUpperBound" modificationStamp="16656" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmCharAnnotationValue.java[JvmCharAnnotationValue" modificationStamp="16616" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmField.java[JvmField" modificationStamp="16630" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmAnnotationType.java[JvmAnnotationType" modificationStamp="16610" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmComponentType.java[JvmComponentType" modificationStamp="16617" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmDeclaredType.java[JvmDeclaredType" modificationStamp="16622" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmEnumAnnotationValue.java[JvmEnumAnnotationValue" modificationStamp="16625" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmBooleanAnnotationValue.java[JvmBooleanAnnotationValue" modificationStamp="16614" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmParameterizedTypeReference.java[JvmParameterizedTypeReference" modificationStamp="16643" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.common.types/emf-gen&lt;org.eclipse.xtext.common.types{JvmShortAnnotationValue.java[JvmShortAnnotationValue" modificationStamp="16645" restrictions="0" visibility="0"/>
+    </package>
+</component>

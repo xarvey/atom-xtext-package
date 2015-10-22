@@ -1,20 +1,8 @@
 'scopeName': 'source.xtext'
 'name': 'xtext'
-'fileTypes': ['xtext']
-'patterns': [
+'fileTypes':[ "mydsl" ]
+'patterns':
   {
-    'match': 'grammar'
+    'match':  "extends|mapsto|typedef|entity"
     'name': 'keyword'
-  },
-  {
-    'match': 'with'
-    'name': 'keyword'
-  },
-  {
-    'match': 'generate'
-    'name': 'keyword'
-  },
-  {
-    'include': 'source.js'
-  }
-]
+    }
