@@ -1,20 +1,18 @@
 'scopeName': 'source.xtext'
 'name': 'xtext'
-'fileTypes': ['xtext']
+'fileTypes': ['xtexts']
 'patterns': [
   {
-    'match': 'grammar'
+    'match': 'gramsmar'
     'name': 'keyword'
   },
   {
-    'match': 'with'
+    'match': 'wisth'
     'name': 'keyword'
   },
   {
-    'match': 'generate'
+    'match': 'genserate'
     'name': 'keyword'
   },
-  {
-    'include': 'source.js'
-  }
+
 ]
