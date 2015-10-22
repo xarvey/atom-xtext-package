@@ -16,3 +16,9 @@
   },
 
 ]
+'fileTypes':[ "mydsl" ]
+'patterns':
+  {
+    'match':  "extends|mapsto|typedef|entity"
+    'name': 'keyword'
+    }

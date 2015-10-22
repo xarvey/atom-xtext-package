@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.eclipse.xtext.xtext.generator" modificationStamp="15245" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.xtext.generator/xtend-gen&lt;org.eclipse.xtext.xtext.generator.parser.antlr"/>
+        <fragment handle="=org.eclipse.xtext.xtext.generator/src&lt;org.eclipse.xtext.xtext.generator.parser.antlr"/>
+        <fragment handle="=org.eclipse.xtext.xtext.generator/src-gen&lt;org.eclipse.xtext.xtext.generator.parser.antlr"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.xtext.generator/xtend-gen&lt;org.eclipse.xtext.xtext.generator.builder"/>
+        <fragment handle="=org.eclipse.xtext.xtext.generator/src&lt;org.eclipse.xtext.xtext.generator.builder"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.xtext.generator/xtend-gen&lt;org.eclipse.xtext.xtext.generator.types"/>
+        <fragment handle="=org.eclipse.xtext.xtext.generator/src&lt;org.eclipse.xtext.xtext.generator.types"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.xtext.generator/xtend-gen&lt;org.eclipse.xtext.xtext.generator.exporting"/>
+        <fragment handle="=org.eclipse.xtext.xtext.generator/src&lt;org.eclipse.xtext.xtext.generator.exporting"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.xtext.generator/xtend-gen&lt;org.eclipse.xtext.xtext.generator.ui.outline"/>
+        <fragment handle="=org.eclipse.xtext.xtext.generator/src&lt;org.eclipse.xtext.xtext.generator.ui.outline"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.xtext.generator/xtend-gen&lt;org.eclipse.xtext.xtext.generator.util"/>
+        <fragment handle="=org.eclipse.xtext.xtext.generator/src&lt;org.eclipse.xtext.xtext.generator.util"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.xtext.generator/xtend-gen&lt;org.eclipse.xtext.xtext.generator.idea.parser.antlr"/>
+        <fragment handle="=org.eclipse.xtext.xtext.generator/src&lt;org.eclipse.xtext.xtext.generator.idea.parser.antlr"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.xtext.generator/xtend-gen&lt;org.eclipse.xtext.xtext.generator.scoping"/>
+        <fragment handle="=org.eclipse.xtext.xtext.generator/src&lt;org.eclipse.xtext.xtext.generator.scoping"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.xtext.generator/xtend-gen&lt;org.eclipse.xtext.xtext.generator.validation"/>
+        <fragment handle="=org.eclipse.xtext.xtext.generator/src&lt;org.eclipse.xtext.xtext.generator.validation"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.xtext.generator/xtend-gen&lt;org.eclipse.xtext.xtext.generator.ecore"/>
+        <fragment handle="=org.eclipse.xtext.xtext.generator/src&lt;org.eclipse.xtext.xtext.generator.ecore"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.xtext.generator/xtend-gen&lt;org.eclipse.xtext.xtext.generator.xbase"/>
+        <fragment handle="=org.eclipse.xtext.xtext.generator/src&lt;org.eclipse.xtext.xtext.generator.xbase"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.xtext.generator/xtend-gen&lt;org.eclipse.xtext.xtext.generator.web"/>
+        <fragment handle="=org.eclipse.xtext.xtext.generator/src&lt;org.eclipse.xtext.xtext.generator.web"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.xtext.generator/xtend-gen&lt;org.eclipse.xtext.xtext.generator.generator"/>
+        <fragment handle="=org.eclipse.xtext.xtext.generator/src&lt;org.eclipse.xtext.xtext.generator.generator"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.xtext.generator/xtend-gen&lt;org.eclipse.xtext.xtext.generator.model"/>
+        <fragment handle="=org.eclipse.xtext.xtext.generator/src&lt;org.eclipse.xtext.xtext.generator.model"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.xtext.generator/xtend-gen&lt;org.eclipse.xtext.xtext.generator"/>
+        <fragment handle="=org.eclipse.xtext.xtext.generator/src&lt;org.eclipse.xtext.xtext.generator"/>
+        <fragment handle="=org.eclipse.xtext.xtext.generator/src-gen&lt;org.eclipse.xtext.xtext.generator"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.xtext.generator/xtend-gen&lt;org.eclipse.xtext.xtext.generator.formatting"/>
+        <fragment handle="=org.eclipse.xtext.xtext.generator/src&lt;org.eclipse.xtext.xtext.generator.formatting"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.xtext.generator/xtend-gen&lt;org.eclipse.xtext.xtext.generator.grammarAccess"/>
+        <fragment handle="=org.eclipse.xtext.xtext.generator/src&lt;org.eclipse.xtext.xtext.generator.grammarAccess"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.xtext.generator/xtend-gen&lt;org.eclipse.xtext.xtext.generator.idea"/>
+        <fragment handle="=org.eclipse.xtext.xtext.generator/src&lt;org.eclipse.xtext.xtext.generator.idea"/>
+    </package>
+</component>

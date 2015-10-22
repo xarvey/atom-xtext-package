@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.eclipse.xtext.xbase" modificationStamp="3215" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.xbase/src&lt;org.eclipse.xtext.xbase.jvmmodel"/>
+        <fragment handle="=org.eclipse.xtext.xbase/xtend-gen&lt;org.eclipse.xtext.xbase.jvmmodel"/>
+        <type handle="=org.eclipse.xtext.xbase/xtend-gen&lt;org.eclipse.xtext.xbase.jvmmodel{JvmIdentifiableMetaData.java[JvmIdentifiableMetaData" modificationStamp="3696" restrictions="14" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/xtend-gen&lt;org.eclipse.xtext.xbase.jvmmodel{JvmElementsProxifyingUnloader.java[JvmElementsProxifyingUnloader" modificationStamp="3695" restrictions="14" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/src&lt;org.eclipse.xtext.xbase.jvmmodel{JvmModelCompleter.java[JvmModelCompleter" modificationStamp="3527" restrictions="14" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/src&lt;org.eclipse.xtext.xbase.jvmmodel{JvmModelAssociator.java[JvmModelAssociator" modificationStamp="3526" restrictions="14" visibility="0">
+            <type handle="=org.eclipse.xtext.xbase/src&lt;org.eclipse.xtext.xbase.jvmmodel{JvmModelAssociator.java[JvmModelAssociator[Adapter" modificationStamp="3526" restrictions="10" visibility="0"/>
+            <method name="setInferrerProvider" restrictions="8" signature="(Lcom/google/inject/Provider;)V" visibility="0"/>
+        </type>
+        <type handle="=org.eclipse.xtext.xbase/src&lt;org.eclipse.xtext.xbase.jvmmodel{JvmTypesBuilder.java[JvmTypesBuilder" modificationStamp="3531" restrictions="6" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/src&lt;org.eclipse.xtext.xbase.jvmmodel{IJvmModelInferrer.java[IJvmModelInferrer" modificationStamp="3521" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/src&lt;org.eclipse.xtext.xbase.jvmmodel{IJvmDeclaredTypeAcceptor.java[IJvmDeclaredTypeAcceptor" modificationStamp="3518" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/src&lt;org.eclipse.xtext.xbase.jvmmodel{JvmModelTargetURICollector.java[JvmModelTargetURICollector" modificationStamp="3528" restrictions="14" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/src&lt;org.eclipse.xtext.xbase.jvmmodel{IJvmModelAssociator.java[IJvmModelAssociator" modificationStamp="3520" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/src&lt;org.eclipse.xtext.xbase.jvmmodel{JvmLocationInFileProvider.java[JvmLocationInFileProvider" modificationStamp="3525" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/src&lt;org.eclipse.xtext.xbase.jvmmodel{ILogicalContainerProvider.java[ILogicalContainerProvider" modificationStamp="3522" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/src&lt;org.eclipse.xtext.xbase.jvmmodel{IJvmModelAssociations.java[IJvmModelAssociations" modificationStamp="3519" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/src&lt;org.eclipse.xtext.xbase.jvmmodel{JvmTypeReferenceBuilder.java[JvmTypeReferenceBuilder" modificationStamp="3530" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/xtend-gen&lt;org.eclipse.xtext.xbase.jvmmodel{JvmTypeExtensions.java[JvmTypeExtensions" modificationStamp="3697" restrictions="6" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/src&lt;org.eclipse.xtext.xbase.jvmmodel{AbstractModelInferrer.java[AbstractModelInferrer" modificationStamp="3517" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/src&lt;org.eclipse.xtext.xbase.jvmmodel{JvmAnnotationReferenceBuilder.java[JvmAnnotationReferenceBuilder" modificationStamp="3523" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.xbase/src&lt;org.eclipse.xtext.xbase"/>
+        <fragment handle="=org.eclipse.xtext.xbase/src-gen&lt;org.eclipse.xtext.xbase"/>
+        <fragment handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xbase"/>
+        <fragment handle="=org.eclipse.xtext.xbase/xtend-gen&lt;org.eclipse.xtext.xbase"/>
+        <fragment handle="=org.eclipse.xtext.xbase/generator&lt;org.eclipse.xtext.xbase"/>
+        <fragment handle="=org.eclipse.xtext.xbase/deprecated&lt;org.eclipse.xtext.xbase"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xbase{XDoWhileExpression.java[XDoWhileExpression" modificationStamp="3263" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xbase{XInstanceOfExpression.java[XInstanceOfExpression" modificationStamp="3268" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xbase{XBasicForLoopExpression.java[XBasicForLoopExpression" modificationStamp="3253" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xbase{XAbstractFeatureCall.java[XAbstractFeatureCall" modificationStamp="3250" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xbase{XReturnExpression.java[XReturnExpression" modificationStamp="3274" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xbase{XIfExpression.java[XIfExpression" modificationStamp="3267" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xbase{XBinaryOperation.java[XBinaryOperation" modificationStamp="3254" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/xtend-gen&lt;org.eclipse.xtext.xbase{XtypeRuntimeModule.java[XtypeRuntimeModule" modificationStamp="3345" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xbase{XMemberFeatureCall.java[XMemberFeatureCall" modificationStamp="3270" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xbase{XConstructorCall.java[XConstructorCall" modificationStamp="3262" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xbase{XTypeLiteral.java[XTypeLiteral" modificationStamp="3281" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/xtend-gen&lt;org.eclipse.xtext.xbase{XbaseRuntimeModule.java[XbaseRuntimeModule" modificationStamp="3343" restrictions="8" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xbase{XCastedExpression.java[XCastedExpression" modificationStamp="3258" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xbase{XBooleanLiteral.java[XBooleanLiteral" modificationStamp="3256" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xbase{XForLoopExpression.java[XForLoopExpression" modificationStamp="3266" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/src-gen&lt;org.eclipse.xtext.xbase{XtypeStandaloneSetupGenerated.java[XtypeStandaloneSetupGenerated" modificationStamp="3334" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xbase{XCollectionLiteral.java[XCollectionLiteral" modificationStamp="3261" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/xtend-gen&lt;org.eclipse.xtext.xbase{XbaseStandaloneSetup.java[XbaseStandaloneSetup" modificationStamp="3344" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xbase{XAbstractWhileExpression.java[XAbstractWhileExpression" modificationStamp="3251" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xbase{XThrowExpression.java[XThrowExpression" modificationStamp="3279" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xbase{XbaseFactory.java[XbaseFactory" modificationStamp="3285" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xbase{XExpression.java[XExpression" modificationStamp="3264" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xbase{XUnaryOperation.java[XUnaryOperation" modificationStamp="3282" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/generator&lt;org.eclipse.xtext.xbase{GenerateXbase.java[GenerateXbase" modificationStamp="3298" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xbase{XAssignment.java[XAssignment" modificationStamp="3252" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xbase{XbasePackage.java[XbasePackage" modificationStamp="3286" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/src&lt;org.eclipse.xtext.xbase{XbaseQualifiedNameConverter.java[XbaseQualifiedNameConverter" modificationStamp="3302" restrictions="2" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xbase{XVariableDeclaration.java[XVariableDeclaration" modificationStamp="3283" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xbase{XFeatureCall.java[XFeatureCall" modificationStamp="3265" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xbase{XClosure.java[XClosure" modificationStamp="3260" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/src-gen&lt;org.eclipse.xtext.xbase{AbstractXbaseRuntimeModule.java[AbstractXbaseRuntimeModule" modificationStamp="3329" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xbase{XNumberLiteral.java[XNumberLiteral" modificationStamp="3272" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/src-gen&lt;org.eclipse.xtext.xbase{AbstractXtypeRuntimeModule.java[AbstractXtypeRuntimeModule" modificationStamp="3330" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xbase{XNullLiteral.java[XNullLiteral" modificationStamp="3271" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xbase{XSwitchExpression.java[XSwitchExpression" modificationStamp="3277" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xbase{XListLiteral.java[XListLiteral" modificationStamp="3269" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xbase{XSetLiteral.java[XSetLiteral" modificationStamp="3275" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xbase{XStringLiteral.java[XStringLiteral" modificationStamp="3276" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xbase{XCasePart.java[XCasePart" modificationStamp="3257" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xbase{XTryCatchFinallyExpression.java[XTryCatchFinallyExpression" modificationStamp="3280" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/src-gen&lt;org.eclipse.xtext.xbase{XbaseStandaloneSetupGenerated.java[XbaseStandaloneSetupGenerated" modificationStamp="3332" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xbase{XCatchClause.java[XCatchClause" modificationStamp="3259" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/xtend-gen&lt;org.eclipse.xtext.xbase{XtypeStandaloneSetup.java[XtypeStandaloneSetup" modificationStamp="3346" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xbase{XWhileExpression.java[XWhileExpression" modificationStamp="3284" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/src&lt;org.eclipse.xtext.xbase{DefaultXbaseRuntimeModule.java[DefaultXbaseRuntimeModule" modificationStamp="3300" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xbase{XBlockExpression.java[XBlockExpression" modificationStamp="3255" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xbase{XPostfixOperation.java[XPostfixOperation" modificationStamp="3273" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xbase{XSynchronizedExpression.java[XSynchronizedExpression" modificationStamp="3278" restrictions="3" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xbase.annotations.xAnnotations"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xbase.annotations.xAnnotations{XAnnotation.java[XAnnotation" modificationStamp="3715" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xbase.annotations.xAnnotations{XAnnotationElementValuePair.java[XAnnotationElementValuePair" modificationStamp="3716" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xbase.annotations.xAnnotations{XAnnotationsPackage.java[XAnnotationsPackage" modificationStamp="3718" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xbase.annotations.xAnnotations{XAnnotationsFactory.java[XAnnotationsFactory" modificationStamp="3717" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.xbase/src&lt;org.eclipse.xtext.xtype"/>
+        <fragment handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xtype"/>
+        <fragment handle="=org.eclipse.xtext.xbase/xtend-gen&lt;org.eclipse.xtext.xtype"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xtype{XtypeFactory.java[XtypeFactory" modificationStamp="3294" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xtype{XComputedTypeReference.java[XComputedTypeReference" modificationStamp="3290" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xtype{XFunctionTypeRef.java[XFunctionTypeRef" modificationStamp="3291" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xtype{XtypePackage.java[XtypePackage" modificationStamp="3295" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xtype{XImportSection.java[XImportSection" modificationStamp="3293" restrictions="3" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xbase/emf-gen&lt;org.eclipse.xtext.xtype{XImportDeclaration.java[XImportDeclaration" modificationStamp="3292" restrictions="3" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.xbase/src&lt;org.eclipse.xtext.xbase.typing"/>
+        <type handle="=org.eclipse.xtext.xbase/src&lt;org.eclipse.xtext.xbase.typing{IJvmTypeReferenceProvider.java[IJvmTypeReferenceProvider" modificationStamp="3573" restrictions="11" visibility="0">
+            <method name="getTypeReference" restrictions="8" signature="(Lorg/eclipse/xtext/xtype/impl/XComputedTypeReferenceImplCustom;)Lorg/eclipse/xtext/common/types/JvmTypeReference;" visibility="0"/>
+        </type>
+    </package>
+</component>

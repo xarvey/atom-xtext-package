@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<setup:Workspace
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:setup="http://www.eclipse.org/oomph/setup/1.0"
+    name="workspace">
+  <setupTask
+      xsi:type="setup:VariableTask"
+      name="eclipse.target.platform"
+      value="Mars"
+      defaultValue="Luna"
+      label="Target Platform">
+    <description>Choose the compatibility level of the target platform</description>
+  </setupTask>
+  <setupTask
+      xsi:type="setup:CompoundTask"
+      name="Eclipse Projects">
+    <restriction
+        xsi:type="setup:ProjectCatalog"
+        href="index:/org.eclipse.setup#//@projectCatalogs[name='org.eclipse']"/>
+    <setupTask
+        xsi:type="setup:CompoundTask"
+        name="Xtext">
+      <restriction
+          xsi:type="setup:Project"
+          href="index:/org.eclipse.setup#//@projectCatalogs[name='org.eclipse']/@projects[name='xtext']"/>
+      <setupTask
+          xsi:type="setup:VariableTask"
+          type="FOLDER"
+          name="git.clone.xtext.location"
+          value="/Users/Xarvey/xtext-master2/git/xtext"
+          label="Core Git clone location">
+        <description>The absolute folder location where the Core Git clone is located</description>
+      </setupTask>
+    </setupTask>
+  </setupTask>
+  <stream href="index:/org.eclipse.setup#//@projectCatalogs[name='org.eclipse']/@projects[name='xtext']/@projects[name='core']/@streams[name='master']"/>
+</setup:Workspace>

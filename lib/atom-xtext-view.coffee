@@ -48,7 +48,8 @@ class AtomXtextView
       if xhttp.readyState == 4 and xhttp.status == 200
         message.textContent = xhttp.responseText.substr(0,30)
         highlight(editor,message.xhttp.responseText.errors[0].line ,10,29)
-    xhttp.open("GET", "http://maple.fm/api/2/search?server=0", true);
+    xhttp.open("GET", "http://localhost:5000/getError", true);
+
     xhttp.send();
 
     $('.pane.active .editor::shadow .line-number').css('background','#FF00FF');

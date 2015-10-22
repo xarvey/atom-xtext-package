@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;FancyFragment.xtend&apos; to &apos;org.xtext.example.mydsl/src/main/java/org.xtext.example.mydsl&apos;&#x0A;- Original project: &apos;org.xtext.example.mydsl3&apos;&#x0A;- Destination element: &apos;org.xtext.example.mydsl/src/main/java/org.xtext.example.mydsl&apos;&#x0A;- Original element: &apos;FancyFragment.xtend&apos;" description="Copy file" destination="=org.xtext.example.mydsl/src\/main\/java&lt;org.xtext.example.mydsl" element1="src/main/java/org/xtext/example/mydsl3/FancyFragment.xtend" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1443903676690" units="0" version="1.0"/>
+</session>

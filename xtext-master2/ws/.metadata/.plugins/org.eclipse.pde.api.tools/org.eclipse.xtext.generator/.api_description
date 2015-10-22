@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.eclipse.xtext.generator" modificationStamp="4814" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.parser.antlr.ex.ca"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.parser.antlr.ex.ca{ContentAssistParserGeneratorFragment.java[ContentAssistParserGeneratorFragment" modificationStamp="5112" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.ui.generator.outline"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.ui.generator.outline{QuickOutlineFragment.java[QuickOutlineFragment" modificationStamp="5067" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.ui.generator.outline{OutlineTreeProviderFragment.java[OutlineTreeProviderFragment" modificationStamp="5065" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.parser.antlr"/>
+        <fragment handle="=org.eclipse.xtext.generator/src-gen&lt;org.eclipse.xtext.generator.parser.antlr"/>
+        <fragment handle="=org.eclipse.xtext.generator/xtend-gen&lt;org.eclipse.xtext.generator.parser.antlr"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.parser.antlr{XtextAntlrGeneratorFragment.java[XtextAntlrGeneratorFragment" modificationStamp="5047" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.parser.antlr{AntlrGrammarGenUtil.java[AntlrGrammarGenUtil" modificationStamp="5035" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.parser.antlr{AbstractAntlrGeneratorFragment.java[AbstractAntlrGeneratorFragment" modificationStamp="5030" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.parser.antlr{DebugAntlrGeneratorFragment.java[DebugAntlrGeneratorFragment" modificationStamp="5040" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.parser.antlr{XtextAntlrUiGeneratorFragment.java[XtextAntlrUiGeneratorFragment" modificationStamp="5049" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/xtend-gen&lt;org.eclipse.xtext.generator.parser.antlr{AbstractAntlrXtendGeneratorFragment.java[AbstractAntlrXtendGeneratorFragment" modificationStamp="5088" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.parser.antlr{AntlrOptions.java[AntlrOptions" modificationStamp="5036" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.parser.antlr{TerminalRuleToLexerBody.java[TerminalRuleToLexerBody" modificationStamp="5046" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.parser.antlr{AntlrToolFacade.java[AntlrToolFacade" modificationStamp="5038" restrictions="0" visibility="0">
+            <method name="getToolRunnerClassName" restrictions="8" signature="()Ljava/lang/String;" visibility="0"/>
+        </type>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.parser.antlr{FirstSetComputer.java[FirstSetComputer" modificationStamp="5042" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.parser.antlr.ex.common"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.parser.antlr.ex.common{AntlrFragmentHelper.java[AntlrFragmentHelper" modificationStamp="5118" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.parser.antlr.ex.common{MutableTokenDefProvider.java[MutableTokenDefProvider" modificationStamp="5122" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.parser.antlr.ex.common{AbstractAntlrGeneratorFragmentEx.java[AbstractAntlrGeneratorFragmentEx" modificationStamp="5117" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.parser.antlr.ex.common{KeywordHelper.java[KeywordHelper" modificationStamp="5121" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.parser.antlr.ex.common{IgnoreCaseString.java[IgnoreCaseString" modificationStamp="5120" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.ecore"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.ecore{EMFGeneratorFragment.java[EMFGeneratorFragment" modificationStamp="4916" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.ecore{EcoreGeneratorFragment.java[EcoreGeneratorFragment" modificationStamp="4918" restrictions="6" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.ecore2xtext"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.ecore2xtext{FormatterFragment.java[FormatterFragment" modificationStamp="4921" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.ecore2xtext{Ecore2XtextValueConverterServiceFragment.java[Ecore2XtextValueConverterServiceFragment" modificationStamp="4920" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.parser.antlr.ex.wsAware"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.parser.antlr.ex.wsAware{SyntheticTerminalAwareFragmentHelper.java[SyntheticTerminalAwareFragmentHelper" modificationStamp="5129" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.ui.generator.labeling"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.ui.generator.labeling{LabelProviderFragment.java[LabelProviderFragment" modificationStamp="5062" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.grammarAccess"/>
+        <fragment handle="=org.eclipse.xtext.generator/xtend-gen&lt;org.eclipse.xtext.generator.grammarAccess"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.grammarAccess{SubPackageAwareGrammarAccessFragment.java[SubPackageAwareGrammarAccessFragment" modificationStamp="4942" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.grammarAccess{GrammarAccessUtil.java[GrammarAccessUtil" modificationStamp="4940" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/xtend-gen&lt;org.eclipse.xtext.generator.grammarAccess{GrammarAccess.java[GrammarAccess" modificationStamp="5010" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.grammarAccess{UnicodeCharacterDatabaseNames.java[UnicodeCharacterDatabaseNames" modificationStamp="4943" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.grammarAccess{GrammarAccessFragment.java[GrammarAccessFragment" modificationStamp="4938" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.grammarAccess{FragmentFakingEcoreResourceFactoryImpl.java[FragmentFakingEcoreResourceFactoryImpl" modificationStamp="4934" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.grammarAccess{FragmentFakingEcoreResource.java[FragmentFakingEcoreResource" modificationStamp="4933" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.grammarAccess{ResourceSaveIndicator.java[ResourceSaveIndicator" modificationStamp="4941" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.parser.antlr.ex.rt"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.parser.antlr.ex.rt{AntlrGeneratorFragment.java[AntlrGeneratorFragment" modificationStamp="5124" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.validation"/>
+        <fragment handle="=org.eclipse.xtext.generator/xtend-gen&lt;org.eclipse.xtext.generator.validation"/>
+        <type handle="=org.eclipse.xtext.generator/xtend-gen&lt;org.eclipse.xtext.generator.validation{ValidatorFragment.java[ValidatorFragment" modificationStamp="5023" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.validation{JavaValidatorFragment.java[JavaValidatorFragment" modificationStamp="4983" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/xtend-gen&lt;org.eclipse.xtext.generator.validation{ValidatorNaming.java[ValidatorNaming" modificationStamp="5024" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.exporting"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.exporting{QualifiedNamesFragment.java[QualifiedNamesFragment" modificationStamp="4923" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.exporting{SimpleNamesFragment.java[SimpleNamesFragment" modificationStamp="4924" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.types"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.types{TypesGeneratorFragment.java[TypesGeneratorFragment" modificationStamp="4980" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.ui.generator.contentAssist"/>
+        <fragment handle="=org.eclipse.xtext.generator/xtend-gen&lt;org.eclipse.xtext.ui.generator.contentAssist"/>
+        <type handle="=org.eclipse.xtext.generator/xtend-gen&lt;org.eclipse.xtext.ui.generator.contentAssist{ContentAssistFragmentExtensions.java[ContentAssistFragmentExtensions" modificationStamp="5091" restrictions="8" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/xtend-gen&lt;org.eclipse.xtext.ui.generator.contentAssist{ContentAssistFragment.java[ContentAssistFragment" modificationStamp="5090" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.ui.generator.contentAssist{JavaBasedContentAssistFragment.java[JavaBasedContentAssistFragment" modificationStamp="5059" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.parseTreeConstructor"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.parseTreeConstructor{ParseTreeConstructorUtil.java[ParseTreeConstructorUtil" modificationStamp="4951" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.parseTreeConstructor{ParseTreeConstructorFragment.java[ParseTreeConstructorFragment" modificationStamp="4949" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.formatting"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.formatting{FormatterFragment.java[FormatterFragment" modificationStamp="4926" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.resourceFactory"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.resourceFactory{ResourceFactoryFragment.java[ResourceFactoryFragment" modificationStamp="4953" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.ui.generator"/>
+        <fragment handle="=org.eclipse.xtext.generator/xtend-gen&lt;org.eclipse.xtext.ui.generator"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.ui.generator{BasicUiGeneratorFragment.java[BasicUiGeneratorFragment" modificationStamp="4991" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.ui.generator{ImplicitUiFragment.java[ImplicitUiFragment" modificationStamp="4992" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.scoping"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.scoping{ImportURIScopingFragment.java[ImportURIScopingFragment" modificationStamp="4960" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.scoping{AbstractScopingFragment.java[AbstractScopingFragment" modificationStamp="4956" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.scoping{ImportNamespacesScopingFragment.java[ImportNamespacesScopingFragment" modificationStamp="4958" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.builder"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.builder{BuilderIntegrationFragment.java[BuilderIntegrationFragment" modificationStamp="4914" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.ui.generator.templates"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.ui.generator.templates{CodetemplatesGeneratorFragment.java[CodetemplatesGeneratorFragment" modificationStamp="5082" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.adapter"/>
+        <fragment handle="=org.eclipse.xtext.generator/xtend-gen&lt;org.eclipse.xtext.generator.adapter"/>
+        <type handle="=org.eclipse.xtext.generator/xtend-gen&lt;org.eclipse.xtext.generator.adapter{StringConcatOutputImpl.java[StringConcatOutputImpl" modificationStamp="5007" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/xtend-gen&lt;org.eclipse.xtext.generator.adapter{FragmentAdapter.java[FragmentAdapter" modificationStamp="5009" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.parser.antlr.postProcessing"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.parser.antlr.postProcessing{SuppressWarningsProcessor.java[SuppressWarningsProcessor" modificationStamp="5099" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.parser.antlr.ex"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator.parser.antlr.ex{ExternalAntlrLexerFragment.java[ExternalAntlrLexerFragment" modificationStamp="5094" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.ui.generator.projectWizard"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.ui.generator.projectWizard{SimpleProjectWizardFragment.java[SimpleProjectWizardFragment" modificationStamp="5074" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.ui.generator.quickfix"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.ui.generator.quickfix{QuickfixProviderFragment.java[QuickfixProviderFragment" modificationStamp="5077" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator"/>
+        <fragment handle="=org.eclipse.xtext.generator/packrat&lt;org.eclipse.xtext.generator"/>
+        <fragment handle="=org.eclipse.xtext.generator/src-gen&lt;org.eclipse.xtext.generator"/>
+        <fragment handle="=org.eclipse.xtext.generator/xtend-gen&lt;org.eclipse.xtext.generator"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator{AbstractStubGeneratorFragment.java[AbstractStubGeneratorFragment" modificationStamp="4838" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator{Binding.java[Binding" modificationStamp="4844" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator{IStubGenerating.java[IStubGenerating" modificationStamp="4866" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator{Xtend2ExecutionContext.java[Xtend2ExecutionContext" modificationStamp="4879" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator{AbstractGeneratorFragment.java[AbstractGeneratorFragment" modificationStamp="4836" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator{CompositeGeneratorFragment.java[CompositeGeneratorFragment" modificationStamp="4846" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator{GenModelAccess.java[GenModelAccess" modificationStamp="4851" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator{CompositeGeneratorException.java[CompositeGeneratorException" modificationStamp="4845" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator{IClassAnnotation.java[IClassAnnotation" modificationStamp="4859" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator{LanguageConfig.java[LanguageConfig" modificationStamp="4868" restrictions="2" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator{Xtend2GeneratorFragment.java[Xtend2GeneratorFragment" modificationStamp="4880" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator{NewlineNormalizer.java[NewlineNormalizer" modificationStamp="4876" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator{GeneratorUtil.java[GeneratorUtil" modificationStamp="4855" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator{NamingAware.java[NamingAware" modificationStamp="4875" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator{MergeableManifest.java[MergeableManifest" modificationStamp="4871" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator{GeneratedClassAnnotation.java[GeneratedClassAnnotation" modificationStamp="4852" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator{IGeneratorFragmentExtension.java[IGeneratorFragmentExtension" modificationStamp="4861" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator{IInheriting.java[IInheriting" modificationStamp="4865" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator{AntlrDelegatingFragment.java[AntlrDelegatingFragment" modificationStamp="4840" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator{BindKey.java[BindKey" modificationStamp="4842" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator{LoggingGeneratorFragment.java[LoggingGeneratorFragment" modificationStamp="4869" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator{GeneratorWarning.java[GeneratorWarning" modificationStamp="4856" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator{IGeneratorFragmentExtension2.java[IGeneratorFragmentExtension2" modificationStamp="4862" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator{IGeneratorFragmentExtension3.java[IGeneratorFragmentExtension3" modificationStamp="4863" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator{ImplicitRuntimeFragment.java[ImplicitRuntimeFragment" modificationStamp="4867" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator{IGeneratorFragment.java[IGeneratorFragment" modificationStamp="4860" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator{BindValue.java[BindValue" modificationStamp="4843" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator{BindFactory.java[BindFactory" modificationStamp="4841" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator{IGeneratorFragmentExtension4.java[IGeneratorFragmentExtension4" modificationStamp="4864" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator{Naming.java[Naming" modificationStamp="4874" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator{AbstractInheritingGeneratorFragment.java[AbstractInheritingGeneratorFragment" modificationStamp="4837" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator{DelegatingGeneratorFragment.java[DelegatingGeneratorFragment" modificationStamp="4848" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator{DefaultGeneratorFragment.java[DefaultGeneratorFragment" modificationStamp="4847" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.generator/src&lt;org.eclipse.xtext.generator{Generator.java[Generator" modificationStamp="4853" restrictions="0" visibility="0"/>
+    </package>
+</component>

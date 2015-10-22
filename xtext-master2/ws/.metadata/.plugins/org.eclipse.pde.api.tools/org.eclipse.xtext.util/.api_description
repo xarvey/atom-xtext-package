@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.eclipse.xtext.util" modificationStamp="13364" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.util/xtend-gen&lt;org.eclipse.xtext.util"/>
+        <fragment handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util"/>
+        <type handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util{PolymorphicDispatcher.java[PolymorphicDispatcher" modificationStamp="13398" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util{StringInputStream.java[StringInputStream" modificationStamp="13405" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util{Arrays.java[Arrays" modificationStamp="13375" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util{EcoreGenericsUtil.java[EcoreGenericsUtil" modificationStamp="13379" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util{IAcceptor.java[IAcceptor" modificationStamp="13386" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util{Files.java[Files" modificationStamp="13384" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util{Triple.java[Triple" modificationStamp="13410" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util{CollectionBasedAcceptor.java[CollectionBasedAcceptor" modificationStamp="13377" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util{StopWatch.java[StopWatch" modificationStamp="13404" restrictions="2" visibility="0"/>
+        <type handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util{DiffUtil.java[DiffUtil" modificationStamp="13378" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util{SimpleAttributeResolver.java[SimpleAttributeResolver" modificationStamp="13402" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util{TextRegion.java[TextRegion" modificationStamp="13408" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util{ExceptionAcceptor.java[ExceptionAcceptor" modificationStamp="13382" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util{UriUtil.java[UriUtil" modificationStamp="13412" restrictions="8" visibility="0"/>
+        <type handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util{AbstractLinkedStack.java[AbstractLinkedStack" modificationStamp="13374" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util{OnChangeEvictingCache.java[OnChangeEvictingCache" modificationStamp="13396" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util{Pair.java[Pair" modificationStamp="13397" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util{GraphvizDotBuilder.java[GraphvizDotBuilder" modificationStamp="13385" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util{TailWriter.java[TailWriter" modificationStamp="13407" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util{RuntimeIOException.java[RuntimeIOException" modificationStamp="13401" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util{CancelIndicator.java[CancelIndicator" modificationStamp="13376" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util{ITextRegionWithLineInformation.java[ITextRegionWithLineInformation" modificationStamp="13389" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util{Wrapper.java[Wrapper" modificationStamp="13413" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.util/xtend-gen&lt;org.eclipse.xtext.util{XtextVersion.java[XtextVersion" modificationStamp="13421" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util{Tuples.java[Tuples" modificationStamp="13411" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util{Exceptions.java[Exceptions" modificationStamp="13383" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util{LinkedStack.java[LinkedStack" modificationStamp="13392" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util{Strings.java[Strings" modificationStamp="13406" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util{Modules2.java[Modules2" modificationStamp="13394" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util{EmfFormatter.java[EmfFormatter" modificationStamp="13380" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util{SimpleCache.java[SimpleCache" modificationStamp="13403" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util{Notifications.java[Notifications" modificationStamp="13395" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util{TextRegionWithLineInformation.java[TextRegionWithLineInformation" modificationStamp="13409" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util{MergeableManifest.java[MergeableManifest" modificationStamp="13393" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util{ITextRegion.java[ITextRegion" modificationStamp="13388" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util{LazyStringInputStream.java[LazyStringInputStream" modificationStamp="13390" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util{ReflectionUtil.java[ReflectionUtil" modificationStamp="13399" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util{ReplaceRegion.java[ReplaceRegion" modificationStamp="13400" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util{IResourceScopeCache.java[IResourceScopeCache" modificationStamp="13387" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util{EmfStructureComparator.java[EmfStructureComparator" modificationStamp="13381" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util{LineFilterOutputStream.java[LineFilterOutputStream" modificationStamp="13391" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util.concurrent"/>
+        <type handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util.concurrent{IWriteAccess.java[IWriteAccess" modificationStamp="13424" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util.concurrent{CancelableUnitOfWork.java[CancelableUnitOfWork" modificationStamp="13421" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util.concurrent{IUnitOfWork.java[IUnitOfWork" modificationStamp="13423" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util.concurrent{AbstractReadWriteAcces.java[AbstractReadWriteAcces" modificationStamp="13420" restrictions="0" visibility="0">
+            <method name="getReadHoldCount" restrictions="8" signature="()I" visibility="0"/>
+            <method name="process" restrictions="8" signature="(QIUnitOfWork;)QT;" visibility="0"/>
+            <method name="getWriteHoldCount" restrictions="8" signature="()I" visibility="0"/>
+        </type>
+        <type handle="=org.eclipse.xtext.util/src&lt;org.eclipse.xtext.util.concurrent{IReadAccess.java[IReadAccess" modificationStamp="13422" restrictions="0" visibility="0"/>
+    </package>
+</component>

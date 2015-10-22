@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.eclipse.xtend.lib.macro" modificationStamp="16101" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.services"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.services{AnnotationReferenceProvider.java[AnnotationReferenceProvider" modificationStamp="16186" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.services{UpstreamTypeLookup.java[UpstreamTypeLookup" modificationStamp="16195" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.services{ProblemSupport.java[ProblemSupport" modificationStamp="16190" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.services{SourceTypeLookup.java[SourceTypeLookup" modificationStamp="16191" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.services{AnnotationReferenceBuildContext.java[AnnotationReferenceBuildContext" modificationStamp="16185" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.services{Associator.java[Associator" modificationStamp="16187" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.services{Problem.java[Problem" modificationStamp="16189" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.services{TypeReferenceProvider.java[TypeReferenceProvider" modificationStamp="16194" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.services{TypeLookup.java[TypeLookup" modificationStamp="16193" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.services{GlobalTypeLookup.java[GlobalTypeLookup" modificationStamp="16188" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.services{Tracability.java[Tracability" modificationStamp="16192" restrictions="1" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{EnumerationTypeDeclaration.java[EnumerationTypeDeclaration" modificationStamp="16138" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{TypeReference.java[TypeReference" modificationStamp="16177" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{ClassDeclaration.java[ClassDeclaration" modificationStamp="16132" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{Declaration.java[Declaration" modificationStamp="16136" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{ResolvedExecutable.java[ResolvedExecutable" modificationStamp="16169" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{MutableFieldDeclaration.java[MutableFieldDeclaration" modificationStamp="16156" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{MutableConstructorDeclaration.java[MutableConstructorDeclaration" modificationStamp="16150" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{FieldDeclaration.java[FieldDeclaration" modificationStamp="16141" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{MutableAnnotationTypeElementDeclaration.java[MutableAnnotationTypeElementDeclaration" modificationStamp="16148" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{MutableParameterDeclaration.java[MutableParameterDeclaration" modificationStamp="16161" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{MutableExecutableDeclaration.java[MutableExecutableDeclaration" modificationStamp="16155" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{MutableTypeDeclaration.java[MutableTypeDeclaration" modificationStamp="16162" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{MutableAnnotationTypeDeclaration.java[MutableAnnotationTypeDeclaration" modificationStamp="16147" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{InterfaceDeclaration.java[InterfaceDeclaration" modificationStamp="16142" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{MutableMemberDeclaration.java[MutableMemberDeclaration" modificationStamp="16158" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{CompilationUnit.java[CompilationUnit" modificationStamp="16134" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{PrimitiveType.java[PrimitiveType" modificationStamp="16167" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{CompilationStrategy.java[CompilationStrategy" modificationStamp="16133" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{MutableClassDeclaration.java[MutableClassDeclaration" modificationStamp="16149" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{Modifier.java[Modifier" modificationStamp="16145" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{MutableElement.java[MutableElement" modificationStamp="16152" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{MutableMethodDeclaration.java[MutableMethodDeclaration" modificationStamp="16159" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{AnnotationTypeElementDeclaration.java[AnnotationTypeElementDeclaration" modificationStamp="16131" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{MemberDeclaration.java[MemberDeclaration" modificationStamp="16143" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{ResolvedParameter.java[ResolvedParameter" modificationStamp="16171" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{MethodDeclaration.java[MethodDeclaration" modificationStamp="16144" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{ResolvedMethod.java[ResolvedMethod" modificationStamp="16170" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{AnnotationTarget.java[AnnotationTarget" modificationStamp="16129" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{MutableDeclaration.java[MutableDeclaration" modificationStamp="16151" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{MutableNamedElement.java[MutableNamedElement" modificationStamp="16160" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{Visibility.java[Visibility" modificationStamp="16178" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{ExecutableDeclaration.java[ExecutableDeclaration" modificationStamp="16140" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{MutableEnumerationTypeDeclaration.java[MutableEnumerationTypeDeclaration" modificationStamp="16153" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{NamedElement.java[NamedElement" modificationStamp="16165" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{TypeParameterDeclaration.java[TypeParameterDeclaration" modificationStamp="16175" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{ConstructorDeclaration.java[ConstructorDeclaration" modificationStamp="16135" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{Type.java[Type" modificationStamp="16173" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{ParameterDeclaration.java[ParameterDeclaration" modificationStamp="16166" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{EnumerationValueDeclaration.java[EnumerationValueDeclaration" modificationStamp="16139" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{MutableEnumerationValueDeclaration.java[MutableEnumerationValueDeclaration" modificationStamp="16154" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{AnnotationTypeDeclaration.java[AnnotationTypeDeclaration" modificationStamp="16130" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{ResolvedConstructor.java[ResolvedConstructor" modificationStamp="16168" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{ResolvedTypeParameter.java[ResolvedTypeParameter" modificationStamp="16172" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{VoidType.java[VoidType" modificationStamp="16179" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{TypeParameterDeclarator.java[TypeParameterDeclarator" modificationStamp="16176" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{MutableAnnotationTarget.java[MutableAnnotationTarget" modificationStamp="16146" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{MutableInterfaceDeclaration.java[MutableInterfaceDeclaration" modificationStamp="16157" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{MutableTypeParameterDeclaration.java[MutableTypeParameterDeclaration" modificationStamp="16163" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{MutableTypeParameterDeclarator.java[MutableTypeParameterDeclarator" modificationStamp="16164" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{TypeDeclaration.java[TypeDeclaration" modificationStamp="16174" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{Element.java[Element" modificationStamp="16137" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.declaration{AnnotationReference.java[AnnotationReference" modificationStamp="16128" restrictions="1" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro{TransformationParticipant.java[TransformationParticipant" modificationStamp="16121" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro{RegisterGlobalsParticipant.java[RegisterGlobalsParticipant" modificationStamp="16119" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro{AbstractFieldProcessor.java[AbstractFieldProcessor" modificationStamp="16112" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro{AbstractMethodProcessor.java[AbstractMethodProcessor" modificationStamp="16114" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro{AbstractEnumerationTypeProcessor.java[AbstractEnumerationTypeProcessor" modificationStamp="16111" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro{AbstractAnnotationTypeProcessor.java[AbstractAnnotationTypeProcessor" modificationStamp="16108" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro{AbstractConstructorProcessor.java[AbstractConstructorProcessor" modificationStamp="16110" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro{Active.java[Active" modificationStamp="16115" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro{CodeGenerationParticipant.java[CodeGenerationParticipant" modificationStamp="16117" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro{ValidationContext.java[ValidationContext" modificationStamp="16122" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro{ValidationParticipant.java[ValidationParticipant" modificationStamp="16123" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro{AbstractInterfaceProcessor.java[AbstractInterfaceProcessor" modificationStamp="16113" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro{RegisterGlobalsContext.java[RegisterGlobalsContext" modificationStamp="16118" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro{AbstractClassProcessor.java[AbstractClassProcessor" modificationStamp="16109" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro{CodeGenerationContext.java[CodeGenerationContext" modificationStamp="16116" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro{TransformationContext.java[TransformationContext" modificationStamp="16120" restrictions="1" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.expression"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.expression{Expression.java[Expression" modificationStamp="16180" restrictions="1" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.file"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.file{FileSystemSupport.java[FileSystemSupport" modificationStamp="16182" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.file{MutableFileSystemSupport.java[MutableFileSystemSupport" modificationStamp="16183" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.file{FileLocations.java[FileLocations" modificationStamp="16181" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.xtend.lib.macro/src&lt;org.eclipse.xtend.lib.macro.file{Path.java[Path" modificationStamp="16184" restrictions="0" visibility="0"/>
+    </package>
+</component>

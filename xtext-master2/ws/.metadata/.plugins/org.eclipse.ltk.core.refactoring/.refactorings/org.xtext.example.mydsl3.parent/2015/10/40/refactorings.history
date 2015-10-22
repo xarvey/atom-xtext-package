@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;MyDslServlet.xtend&apos; to &apos;MyDslServlet.xtend&apos;&#x0A;- Original project: &apos;org.xtext.example.mydsl3.parent&apos;&#x0A;- Destination element: &apos;MyDslServlet.xtend&apos;&#x0A;- Original element: &apos;MyDslServlet.xtend&apos;" description="Copy file" element1="org.xtext.example.mydsl3.web/src/main/java/org/xtext/example/mydsl3/web/MyDslServlet.xtend" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1443898620594" target="/org.xtext.example.mydsl3.parent/org.xtext.example.mydsl3.web/src/main/java/org/xtext/example/mydsl3/web/MyDslServlet.xtend" units="0" version="1.0"/>
+</session>

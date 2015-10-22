@@ -1,0 +1,3 @@
+includeFlat 'org.xtext.example.mydsl3'
+includeFlat 'org.xtext.example.mydsl3.ide'
+includeFlat 'org.xtext.example.mydsl3.idea'

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.eclipse.xtext.xtext.ui.graph" modificationStamp="1996" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph.figures"/>
+        <type handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph.figures{CompartmentSegment.java[CompartmentSegment" modificationStamp="2022" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph.figures{CrossPointSegment.java[CrossPointSegment" modificationStamp="2023" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph.figures{RailroadTrack.java[RailroadTrack" modificationStamp="2032" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph.figures{NodeSegment.java[NodeSegment" modificationStamp="2029" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph.figures{ISegmentFigure.java[ISegmentFigure" modificationStamp="2026" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph.figures{RailroadDiagram.java[RailroadDiagram" modificationStamp="2031" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph.figures{BypassSegment.java[BypassSegment" modificationStamp="2021" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph.figures{SequenceSegment.java[SequenceSegment" modificationStamp="2033" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph.figures{ParallelSegment.java[ParallelSegment" modificationStamp="2030" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph.figures{IEObjectReferer.java[IEObjectReferer" modificationStamp="2024" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph.figures{ILayoutConstants.java[ILayoutConstants" modificationStamp="2025" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph.figures{AbstractSegmentFigure.java[AbstractSegmentFigure" modificationStamp="2020" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph.figures{ISelectable.java[ISelectable" modificationStamp="2027" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph.figures{LoopSegment.java[LoopSegment" modificationStamp="2028" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph.bundle"/>
+        <type handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph.bundle{Activator.java[Activator" modificationStamp="2017" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph.bundle{RailroadModule.java[RailroadModule" modificationStamp="2018" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph.bundle{RailroadViewExecutableExtensionRegistry.java[RailroadViewExecutableExtensionRegistry" modificationStamp="2019" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph.figures.layouts"/>
+        <type handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph.figures.layouts{RailroadConnectionRouter.java[RailroadConnectionRouter" modificationStamp="2040" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph.figures.layouts{CompartmentLayout.java[CompartmentLayout" modificationStamp="2038" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph.figures.layouts{ParallelLayout.java[ParallelLayout" modificationStamp="2039" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph.figures.layouts{SequenceLayout.java[SequenceLayout" modificationStamp="2041" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph.actions"/>
+        <type handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph.actions{LinkWithEditorAction.java[LinkWithEditorAction" modificationStamp="2015" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph.actions{ExportToFileAction.java[ExportToFileAction" modificationStamp="2014" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph.actions{RailroadSelectionLinker.java[RailroadSelectionLinker" modificationStamp="2016" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph"/>
+        <type handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph{RailroadSelectionProvider.java[RailroadSelectionProvider" modificationStamp="2006" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph{RailroadSynchronizer.java[RailroadSynchronizer" modificationStamp="2007" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph{RailroadViewPreferences.java[RailroadViewPreferences" modificationStamp="2009" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph{RailroadView.java[RailroadView" modificationStamp="2008" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph.trafo"/>
+        <type handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph.trafo{Xtext2RailroadFactory.java[Xtext2RailroadFactory" modificationStamp="2036" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph.trafo{Xtext2RailroadTransformer.java[Xtext2RailroadTransformer" modificationStamp="2037" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph.figures.primitives"/>
+        <type handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph.figures.primitives{RoundedNode.java[RoundedNode" modificationStamp="2050" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph.figures.primitives{RectangleNode.java[RectangleNode" modificationStamp="2049" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph.figures.primitives{Connection.java[Connection" modificationStamp="2043" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph.figures.primitives{AbstractNode.java[AbstractNode" modificationStamp="2042" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph.figures.primitives{NodeType.java[NodeType" modificationStamp="2047" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph.figures.primitives{CrossPoint.java[CrossPoint" modificationStamp="2044" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph.figures.primitives{PrimitiveFigureFactory.java[PrimitiveFigureFactory" modificationStamp="2048" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph.figures.primitives{LabelNode.java[LabelNode" modificationStamp="2046" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.xtext.xtext.ui.graph/src&lt;org.eclipse.xtext.xtext.ui.graph.figures.primitives{ErrorNode.java[ErrorNode" modificationStamp="2045" restrictions="0" visibility="0"/>
+    </package>
+</component>
