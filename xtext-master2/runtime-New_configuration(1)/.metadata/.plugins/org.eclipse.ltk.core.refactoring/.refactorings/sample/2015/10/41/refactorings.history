@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;sample/src/try.mydsl&apos; to &apos;try.mydsl1&apos;" description="Rename resource &apos;try.mydsl&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/try.mydsl" name="try.mydsl1" stamp="1444281383782" updateReferences="true"/>
-</session>

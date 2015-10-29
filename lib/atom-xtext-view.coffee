@@ -46,8 +46,7 @@ class AtomXtextView
     xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = =>
       if xhttp.readyState == 4 and xhttp.status == 200
-        message.textContent = xhttp.responseText.substr(0,30)
-        highlight(editor,message.xhttp.responseText.errors[0].line ,10,29)
+        message.textContent = xhttp.responseText;
     xhttp.open("GET", "http://localhost:5000/getError", true);
 
     xhttp.send();
