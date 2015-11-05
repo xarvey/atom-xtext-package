@@ -13,7 +13,7 @@ class AtomXtextView
 
     # Create message element
     message = document.createElement('div')
-    message.textContent = "Missing semicolon."
+    message.textContent = "Sample error message."
     message.classList.add('message')
     @element.appendChild(message)
 

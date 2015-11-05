@@ -13,6 +13,10 @@ module.exports = TestAtom =
     # Events subscribed to in atom's system can be easily cleaned up with a CompositeDisposable
     @subscriptions = new CompositeDisposable
 
+    atom.workspace.observeTextEditors (editor) =>
+      editor.onDidChangeCursorPosition =>
+        @marker.destroy()
+
     # Register command that toggles this view
     @subscriptions.add atom.commands.add 'atom-workspace', 'atom-xtext:toggle': => @toggle()
 
@@ -27,8 +31,8 @@ module.exports = TestAtom =
     console.log 'TestAtom was toggled!'
 
     @editor = atom.workspace.getActiveTextEditor()
-    marker = @editor.markBufferRange(@editor.getSelectedBufferRange());
-    decoration = @editor.decorateMarker(marker,{type: 'overlay', item: @atomXtextView.getElement(), position: 'tail'})
+    @marker = @editor.markBufferRange(@editor.getSelectedBufferRange());
+    @decoration = @editor.decorateMarker(@marker,{type: 'overlay', item: @atomXtextView.getElement(), position: 'tail'})
     # if @modalPanel.isVisible()
     #  @modalPanel.hide()
     #else
