@@ -1,14 +1,14 @@
 AtomXtextView = require './atom-xtext-view'
 {CompositeDisposable} = require 'atom'
 
-module.exports = AtomXtext =
-  atomXtextView: null
+module.exports = TestAtom =
+  testAtomView: null
   modalPanel: null
   subscriptions: null
 
   activate: (state) ->
     @atomXtextView = new AtomXtextView(state.atomXtextViewState)
-    @modalPanel = atom.workspace.addModalPanel(item: @atomXtextView.getElement(), visible: false)
+    #@modalPanel = atom.workspace.addModalPanel(item: @testAtomView.getElement(), visible: false)
 
     # Events subscribed to in atom's system can be easily cleaned up with a CompositeDisposable
     @subscriptions = new CompositeDisposable
@@ -17,7 +17,6 @@ module.exports = AtomXtext =
     @subscriptions.add atom.commands.add 'atom-workspace', 'atom-xtext:toggle': => @toggle()
 
   deactivate: ->
-    @modalPanel.destroy()
     @subscriptions.dispose()
     @atomXtextView.destroy()
 
@@ -25,8 +24,12 @@ module.exports = AtomXtext =
     atomXtextViewState: @atomXtextView.serialize()
 
   toggle: ->
-    console.log 'AtomXtext was toggled!'
-    if @modalPanel.isVisible()
-      @modalPanel.hide()
-    else
-      @modalPanel.show()
+    console.log 'TestAtom was toggled!'
+
+    @editor = atom.workspace.getActiveTextEditor()
+    marker = @editor.markBufferRange(@editor.getSelectedBufferRange());
+    decoration = @editor.decorateMarker(marker,{type: 'overlay', item: @atomXtextView.getElement(), position: 'tail'})
+    # if @modalPanel.isVisible()
+    #  @modalPanel.hide()
+    #else
+    #  @modalPanel.show()

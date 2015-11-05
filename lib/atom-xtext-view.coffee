@@ -1,4 +1,34 @@
-$ = jQuery = require 'jquery'
+module.exports =
+class AtomXtextView
+  constructor: (serializedState) ->
+    # Create root element
+    @element = document.createElement('div')
+    @element.classList.add('test-atom')
+
+    # Create Error indicator
+    flag = document.createElement('div')
+    flag.textContent = "Error"
+    flag.classList.add('flag')
+    @element.appendChild(flag)
+
+    # Create message element
+    message = document.createElement('div')
+    message.textContent = "Missing semicolon."
+    message.classList.add('message')
+    @element.appendChild(message)
+
+  # Returns an object that can be retrieved when package is activated
+  serialize: ->
+
+  # Tear down any state and detach
+  destroy: ->
+    @element.remove()
+
+  getElement: ->
+    @element
+
+
+'''$ = jQuery = require 'jquery'
 
 module.exports =
 class AtomXtextView
@@ -29,6 +59,7 @@ class AtomXtextView
       $(query).css('background',getRandomColor)
 
     @element = document.createElement('div')
+    @element.id = 'linter-inline'
     @element.classList.add('atom-xtext')
 
     message = document.createElement('div')
@@ -42,6 +73,8 @@ class AtomXtextView
         $('.pane.active .editor::shadow .line-number').css('background', getRandomColor);
         highlight(editor,20,10,29)
 
+
+  fetch: ->
     # Create message element
     xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = =>
@@ -63,3 +96,4 @@ class AtomXtextView
 
   getElement: ->
     @element
+    '''
