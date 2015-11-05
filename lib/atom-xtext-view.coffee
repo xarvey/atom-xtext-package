@@ -13,8 +13,14 @@ class AtomXtextView
 
     # Create message element
     message = document.createElement('div')
-    message.textContent = "Sample error message."
+    xhttp = new XMLHttpRequest()
+    xhttp.onreadystatechange = =>
+      if xhttp.readyState == 4 and xhttp.status == 200
+        message.textContent = xhttp.responseText;
+    xhttp.open("GET", "http://localhost:5000/getError", true)
+    xhttp.send()
     message.classList.add('message')
+    @element.appendChild(message)
     @element.appendChild(message)
 
   # Returns an object that can be retrieved when package is activated

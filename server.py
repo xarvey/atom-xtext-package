@@ -18,7 +18,7 @@ errors = [
 
 @app.route('/getError', methods=['GET'])
 def get_tasks():
-    return jsonify({'errors': errors})
+    return 'Should be a exclamation point here'
 
 if __name__ == '__main__':
     app.run(debug=True)
