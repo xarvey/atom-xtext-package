@@ -1,4 +1,4 @@
-package org.xtext.example.mydsl
+package org.xtext.example.mydsl1
 
 import org.eclipse.emf.ecore.EObject
 import org.eclipse.xtext.AbstractElement
@@ -28,7 +28,7 @@ class AtomFragment extends AbstractGeneratorFragment2 {
 			'fileTypes': [' «language.fileExtensions.join(',')» ']
 			'patterns':
 			{
-				 «collectKeywordsAsRegex()»
+				 'match': «collectKeywordsAsRegex()»
 				 'name': 'keyword'
 			}
 		'''
