@@ -6,6 +6,8 @@ module.exports = TestAtom =
   modalPanel: null
   subscriptions: null
 
+  
+
   activate: (state) ->
     @atomXtextView = new AtomXtextView(state.atomXtextViewState)
     #@modalPanel = atom.workspace.addModalPanel(item: @testAtomView.getElement(), visible: false)

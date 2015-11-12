@@ -1,6 +1,6 @@
 {
   "name": "atom-xtext",
-  "main": "./lib/atom-xtext-backup",
+  "main": "./lib/index.coffee",
   "version": "0.0.0",
   "description": "A short description of your package",
   "keywords": [],
@@ -14,7 +14,6 @@
   },
   "dependencies": {
     "jquery": "^2.1.4",
-    "atom-linter": "^3.2.0",
     "simple-text-parser": "^0.1.2",
     "jquery": "^2.1.4"
   },
