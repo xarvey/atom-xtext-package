@@ -1,27 +1,25 @@
 {
-  "name": "atom-xtext",
-  "main": "./lib/index.coffee",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "name": "atom-xtext-package",
+  "main": "./lib/atom-xtext-package",
+  "version": "0.0.1",
+  "description": "A atom package for xtext",
   "keywords": [],
   "activationCommands": {
-    "atom-workspace": "atom-xtext:toggle"
+    "atom-workspace": "atom-xtext-package:toggle"
   },
-  "repository": "https://github.com/atom/atom-xtext",
+  "repository": "https://github.com/atom/atom-xtext-package",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "jquery": "^2.1.4",
-    "simple-text-parser": "^0.1.2",
     "jquery": "^2.1.4"
   },
   "providedServices": {
-  "linter": {
-    "versions": {
-      "1.0.0": "provideLinter"
+    "linter": {
+      "versions": {
+        "1.0.0": "provideLinter"
+      }
     }
   }
-}
 }
