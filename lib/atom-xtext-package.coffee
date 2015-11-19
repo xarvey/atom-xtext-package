@@ -45,7 +45,7 @@ module.exports = AtomXtextPackage =
             success: (data, textStatus, jqXHR) ->
               issue = JSON.parse(data).issues[0]
               console.log(issue)
-              if (issue && issue.length>0)
+              if (issue and issue.length>0)
                 res = {
                   type: issue.severity
                   text: issue.description,
@@ -55,13 +55,6 @@ module.exports = AtomXtextPackage =
                 results.push(res)
         ).then ->
           return results
-
-
-
-
-
-
-
 
   toggle: ->
     console.log 'AtomXtextPackage was toggled!'
