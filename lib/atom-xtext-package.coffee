@@ -1,4 +1,6 @@
 AtomXtextPackageView = require './atom-xtext-package-view'
+XtextLinter = require './atom-xtext-linter'
+
 {CompositeDisposable} = require 'atom'
 $ = require 'jquery'
 
@@ -6,6 +8,7 @@ module.exports = AtomXtextPackage =
   atomXtextPackageView: null
   modalPanel: null
   subscriptions: null
+  provider: null
 
   activate: (state) ->
     @atomXtextPackageView = new AtomXtextPackageView(state.atomXtextPackageViewState)
@@ -13,9 +16,10 @@ module.exports = AtomXtextPackage =
 
     # Events subscribed to in atom's system can be easily cleaned up with a CompositeDisposable
     @subscriptions = new CompositeDisposable
-    @scopes = ['*']
+    @scopes = ['.mydsl1']
     # Register command that toggles this view
     @subscriptions.add atom.commands.add 'atom-workspace', 'atom-xtext-package:toggle': => @toggle()
+    @providerLinter = new XtextLinter()
 
   deactivate: ->
     @modalPanel.destroy()
@@ -25,9 +29,18 @@ module.exports = AtomXtextPackage =
   serialize: ->
     atomXtextPackageViewState: @atomXtextPackageView.serialize()
 
+  getProvider: ->
+    if not @provider?
+      XtextProvider = require './xtext-provider'
+      @provider = new XtextProvider()
+    return @provider
+
+  provide: ->
+    @getProvider()
+
   provideLinter: ->
     provider =
-      grammarScopes: @scopes
+      grammarScopes: ['*']
       scope: 'file'
       lintOnFly: true
       lint: (textEditor) ->

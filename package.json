@@ -16,15 +16,15 @@
     "jquery": "^2.1.4"
   },
   "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "provide"
+      }
+    },
     "linter": {
       "versions": {
         "1.0.0": "provideLinter"
       }
-    },
-  "autocomplete.provider": {
-   "versions": {
-     "2.0.0": "provide"
-   }
-  }
+    }
   }
 }
