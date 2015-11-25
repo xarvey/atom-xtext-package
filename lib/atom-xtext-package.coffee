@@ -68,7 +68,7 @@ module.exports = AtomXtextPackage =
   provide: ->
     @provider =
   # This will work on JavaScript and CoffeeScript files, but not in js comments.
-      selector: '.source.mydsl1, .source.coffee'
+      selector: '.source.coffee, .source.mydsl1'
       disableForSelector: '.source.js .comment'
 
       # This will take priority over the default provider, which has a priority of 0.
@@ -83,6 +83,17 @@ module.exports = AtomXtextPackage =
         editor = atom.workspace.getActiveTextEditor()
         buffer = editor.getBuffer()
         charOffset = buffer.characterIndexForPosition(bufferPosition)
+        text = editor.getText()
+        results = []
+        url = 'http://localhost:8080/xtext-service/assist?resource=text.mydsl1&fullText='+encodeURIComponent(text)+'&caretOffset='+charOffset
+        $.ajax url,
+          type: 'POST'
+          dataType: 'html'
+          error: (jqXHR, textStatus, errorThrown) ->
+            console.log "#{textStatus}"
+          success: (data, textStatus, jqXHR) ->
+            console.log(JSON.parse(data).entries[0].proposal)
+
         new Promise (resolve) ->
           suggestion =
             text: 'someText'
