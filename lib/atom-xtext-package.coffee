@@ -14,7 +14,7 @@ module.exports = AtomXtextPackage =
 
     # Events subscribed to in atom's system can be easily cleaned up with a CompositeDisposable
     @subscriptions = new CompositeDisposable
-    @scopes = ['.mydsl1']
+    @scopes = ['*']
     # Register command that toggles this view
     @subscriptions.add atom.commands.add 'atom-workspace', 'atom-xtext-package:toggle': => @toggle()
 
@@ -78,31 +78,40 @@ module.exports = AtomXtextPackage =
       excludeLowerPriority: true
       # Required: Return a promise, an array of suggestions, or null.
       getSuggestions: ({editor, bufferPosition, scopeDescriptor, prefix, activatedManually}) ->
-        console.log(bufferPosition)
-        console.log(editor)
-        editor = atom.workspace.getActiveTextEditor()
+        #console.log(bufferPosition)
+        #console.log(editor)
         buffer = editor.getBuffer()
         charOffset = buffer.characterIndexForPosition(bufferPosition)
         text = editor.getText()
         results = []
         url = 'http://localhost:8080/xtext-service/assist?resource=text.mydsl1&fullText='+encodeURIComponent(text)+'&caretOffset='+charOffset
-        $.ajax url,
-          type: 'POST'
-          dataType: 'html'
-          error: (jqXHR, textStatus, errorThrown) ->
-            console.log "#{textStatus}"
-          success: (data, textStatus, jqXHR) ->
-            console.log(JSON.parse(data).entries[0].proposal)
-
         new Promise (resolve) ->
           suggestion =
             text: 'someText'
             leftLabel: 'xtext' # (optional)
+
           suggestion2 =
             text: 'someTextotherShit'
             leftLabel: 'xtext' # (optional)
 
-          resolve([suggestion,suggestion2])
+          $.ajax url,
+            type: 'POST'
+            dataType: 'html'
+            error: (jqXHR, textStatus, errorThrown) ->
+              console.log "#{textStatus}"
+            success: (data, textStatus, jqXHR) ->
+              entries=JSON.parse(data).entries
+              results = (
+                (
+                  text: single_entry.proposal
+                  leftLabel: 'xtext'
+                ) for single_entry in entries
+                )
+
+              #console.log(results)
+              resolve(results)
+
+
       # (optional): called _after_ the suggestion `replacementPrefix` is replaced
       # by the suggestion `text` in the buffer
       onDidInsertSuggestion: ({editor, triggerPosition, suggestion}) ->

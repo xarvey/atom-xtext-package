@@ -16,9 +16,9 @@
   },
 
 ]
-'fileTypes':[ "mydsl" ]
+'fileTypes':[ "mydsl1" ]
 'patterns':
   {
-    'match':  "extends|mapsto|typedef|entity"
+    'match':  "extends|mapsto|typedef|entity|Hello"
     'name': 'keyword'
     }
