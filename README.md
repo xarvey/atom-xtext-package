@@ -3,7 +3,7 @@
 
 A package with autocomplete and error message linter
 
-!(sample.gif)
+![works](sample.gif)
 
 
 ## How to use it
