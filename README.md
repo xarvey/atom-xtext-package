@@ -1,5 +1,5 @@
 # atom-xtext-package package
 
-A short description of your package.
+A package with autocomplete and error message linter
 
 ![A screenshot of your package](sample.gif)
