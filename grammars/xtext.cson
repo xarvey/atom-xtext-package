@@ -1,24 +1,29 @@
 'scopeName': 'source.xtext'
 'name': 'xtext'
-'fileTypes': ['xtexts']
+'fileTypes': ['xtext']
 'patterns': [
   {
-    'match': 'gramsmar'
-    'name': 'keyword'
-  },
+    # this line means "look for the xtextkeywords in the repository object below"
+    'include': '#xtextkeywords'
+  }
   {
-    'match': 'wisth'
-    'name': 'keyword'
-  },
-  {
-    'match': 'genserate'
-    'name': 'keyword'
-  },
-
+    'include': 'source.js'
+  }
 ]
-'fileTypes':[ "mydsl1" ]
-'patterns':
-  {
-    'match':  "extends|mapsto|typedef|entity|Hello"
-    'name': 'keyword'
-    }
+'repository':
+  'xtextkeywords':
+    'patterns': [
+      {
+        # tell it where to look for the pattern
+        'include': '#hardcoded-keywords'
+      }
+      {
+        # or you can input it directly
+        'name': 'keyword.control'
+        'match': 'generate'
+      }
+    ]
+  # kaboom it's here!
+  'hardcoded-keywords':
+    'name': 'keyword.control'
+    'match': 'grammar|secrets'
