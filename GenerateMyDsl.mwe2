@@ -4,9 +4,9 @@ import org.eclipse.xtext.xtext.generator.*
 import org.eclipse.xtext.xtext.generator.model.project.*
 
 var rootPath = ".."
-var atomPath
+var atomPath  
 Workflow {
-
+	
 	component = XtextGenerator {
 		configuration = {
 			project = StandardProjectConfig {
@@ -35,11 +35,10 @@ Workflow {
 			validator = {
 				// composedCheck = "org.eclipse.xtext.validation.NamesAreUniqueValidator"
 			}
-		 //	fragment = WriteToExternalFolderFragment {
-			//	absolutePath = atomPath
-//				override = true
-			//}
-
+		  	fragment = WriteToExternalFolderFragment {
+				absolutePath = atomPath
+			}
+			
 		}
 	}
 }

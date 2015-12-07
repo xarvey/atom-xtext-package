@@ -5,7 +5,6 @@
   "description": "A atom package for xtext",
   "keywords": [],
   "activationCommands": {
-    "atom-workspace": "atom-xtext-package:toggle"
   },
   "repository": "https://github.com/atom/atom-xtext-package",
   "license": "MIT",

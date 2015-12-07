@@ -26,31 +26,52 @@ import org.eclipse.xtext.xtext.generator.model.XtextGeneratorFileSystemAccess
 import org.eclipse.emf.mwe2.runtime.Mandatory
 
 class WriteToExternalFolderFragment extends AbstractXtextGeneratorFragment {
-
+	
 	String absolutePath
-
+	
 	@Accessors(#[PROTECTED_GETTER, PUBLIC_SETTER])
 	boolean ^override = false
-
+	
 	IXtextGeneratorFileSystemAccess outputLocation
-
+	
 	override generate() {
 		val configFile = '''
-			'scopeName': 'source.xtext'
-			'name': 'xtext'
-			'fileTypes': [' «language.fileExtensions.join(',')» ']
-			'patterns':
-			{
-				 'match': «collectKeywordsAsRegex()»
-				 'name': 'keyword'
-			}
+		'scopeName': 'source.mydsl1'
+		'name': 'xtext'
+		'fileTypes': [' «language.fileExtensions.join(',')» ']
+		'patterns': [
+		  {
+		    # this line means "look for the xtextkeywords in the repository object below"
+		    'include': '#xtextkeywords'
+		  }
+		  {
+		    'include': 'source.js'
+		  }
+		]
+		'repository':
+		  'xtextkeywords':
+		    'patterns': [
+		      {
+		        # tell it where to look for the pattern
+		        'include': '#hardcoded-keywords'
+		      }
+		      {
+		        'match': «collectKeywordsAsRegex()»
+		        'name': 'keyword.control'
+		      }
+		    ]
+		  # kaboom it's here!
+		  'hardcoded-keywords':
+		    'name': 'keyword.control'
+		    'match': 'grammar|secrets|Hello'
+		    
 		'''
 
 	  // content is produced here
 	  // Currently processed Grammar is obtained via getGrammar
 		outputLocation.generateFile('xtext.cson', configFile)
 	}
-
+	
 	def collectKeywordsAsRegex() {
 		val g = grammar
 		val keywords = GrammarUtil.getAllKeywords(g)
@@ -61,24 +82,24 @@ class WriteToExternalFolderFragment extends AbstractXtextGeneratorFragment {
 			'"' // after
 		) [ it ] // how to represent the keyword as a regex (1:1 in this case)
 	}
-
+	
 	protected def getOutputLocation() {
 		return outputLocation
 	}
-
+	
 	override initialize(Injector injector) {
 		super.initialize(injector)
 		this.outputLocation = new XtextGeneratorFileSystemAccess(absolutePath, override)
 		injector.injectMembers(outputLocation)
 	}
-
+	
 	protected def getAbsolutePath() {
 		return absolutePath
 	}
-
+	
 	@Mandatory
 	def void setAbsolutePath(String absolutePath) {
 		this.absolutePath = absolutePath
 	}
-
+	
 }

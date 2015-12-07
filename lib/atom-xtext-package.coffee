@@ -7,6 +7,7 @@ module.exports = AtomXtextPackage =
   modalPanel: null
   subscriptions: null
   provider: null
+  extension : 'mydsl1'
 
   activate: (state) ->
     @atomXtextPackageView = new AtomXtextPackageView(state.atomXtextPackageViewState)
