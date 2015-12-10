@@ -1,7 +1,7 @@
 {
   "name": "atom-xtext-package",
   "main": "./lib/atom-xtext-package",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An atom package for xtext",
   "keywords": [],
   "activationCommands": {
