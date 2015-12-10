@@ -42,7 +42,8 @@ module.exports = AtomXtextPackage =
       lint: (textEditor) ->
         filePath = textEditor.getPath()
         text = textEditor.getText()
-        url = 'http://localhost:8080/xtext-service/validate?resource=text.mydsl1&fullText='+encodeURIComponent(text)
+        title = textEditor.getTitle()
+        url = 'http://localhost:8080/xtext-service/validate?resource='+title+'&fullText='+encodeURIComponent(text)
         #console.log(url)
         results = []
         $.when(
@@ -84,8 +85,9 @@ module.exports = AtomXtextPackage =
         buffer = editor.getBuffer()
         charOffset = buffer.characterIndexForPosition(bufferPosition)
         text = editor.getText()
+        title = editor.getTitle()
         results = []
-        url = 'http://localhost:8080/xtext-service/assist?resource=text.mydsl1&fullText='+encodeURIComponent(text)+'&caretOffset='+charOffset
+        url = 'http://localhost:8080/xtext-service/assist?resource=+'+title+'&fullText='+encodeURIComponent(text)+'&caretOffset='+charOffset
         new Promise (resolve) ->
           suggestion =
             text: 'someText'

@@ -38,7 +38,7 @@ class WriteToExternalFolderFragment extends AbstractXtextGeneratorFragment {
 		val configFile = '''
 		'scopeName': 'source.mydsl1'
 		'name': 'xtext'
-		'fileTypes': [' «language.fileExtensions.join(',')» ']
+		'fileTypes': ['«language.fileExtensions.join(',')»']
 		'patterns': [
 		  {
 		    # this line means "look for the xtextkeywords in the repository object below"
@@ -52,19 +52,11 @@ class WriteToExternalFolderFragment extends AbstractXtextGeneratorFragment {
 		  'xtextkeywords':
 		    'patterns': [
 		      {
-		        # tell it where to look for the pattern
-		        'include': '#hardcoded-keywords'
-		      }
-		      {
 		        'match': «collectKeywordsAsRegex()»
 		        'name': 'keyword.control'
 		      }
 		    ]
-		  # kaboom it's here!
-		  'hardcoded-keywords':
-		    'name': 'keyword.control'
-		    'match': 'grammar|secrets|Hello'
-		    
+		
 		'''
 
 	  // content is produced here

@@ -1,6 +1,6 @@
 'scopeName': 'source.mydsl1'
 'name': 'xtext'
-'fileTypes': [' mydsl1 ']
+'fileTypes': ['mydsl1']
 'patterns': [
   {
     # this line means "look for the xtextkeywords in the repository object below"
@@ -14,16 +14,7 @@
   'xtextkeywords':
     'patterns': [
       {
-        # tell it where to look for the pattern
-        'include': '#hardcoded-keywords'
-      }
-      {
-        'match': "Hello"
+        'match': "The|works"
         'name': 'keyword.control'
       }
     ]
-  # kaboom it's here!
-  'hardcoded-keywords':
-    'name': 'keyword.control'
-    'match': 'grammar|secrets|Hello'
-    
