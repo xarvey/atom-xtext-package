@@ -7,7 +7,7 @@
   "activationCommands": {
     "atom-workspace": "atom-xtext-package:toggle"
   },
-  "repository": "https://github.com/atom/atom-xtext-package",
+  "repository": "https://github.com/xarvey/atom-xtext-package",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
