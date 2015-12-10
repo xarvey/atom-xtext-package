@@ -7,7 +7,6 @@ module.exports = AtomXtextPackage =
   modalPanel: null
   subscriptions: null
   provider: null
-  extension : 'mydsl1'
 
   activate: (state) ->
     @atomXtextPackageView = new AtomXtextPackageView(state.atomXtextPackageViewState)
@@ -31,7 +30,6 @@ module.exports = AtomXtextPackage =
     if not @provider?
       XtextProvider = require './xtext-provider'
       @provider = new XtextProvider()
-    console.log(@provider)
     return @provider
 
   provideLinter: ->

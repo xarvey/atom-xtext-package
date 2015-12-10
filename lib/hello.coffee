@@ -1,2 +1,0 @@
-Hello Gustavo!
-Hello world!
