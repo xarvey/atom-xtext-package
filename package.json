@@ -2,7 +2,7 @@
   "name": "atom-xtext-package",
   "main": "./lib/atom-xtext-package",
   "version": "1.0.1",
-  "description": "A atom package for xtext",
+  "description": "An atom package for xtext",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "atom-xtext-package:toggle"
