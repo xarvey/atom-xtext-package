@@ -8,7 +8,7 @@ A package with autocomplete and error message linter
 
 ## How to use it
 
-- Clone XText
+- Clone Xtext
 - Download Atom
 - In one terminal, cd to your xtext directory and run `./gradlew jettyRun`
 - Test that your example webserver is running by going to http://localhost:8080
